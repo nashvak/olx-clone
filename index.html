@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLX</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a
+          rel=""
+          data-aut-id="btnOlxLogo"
+          aria-current="page"
+          class=""
+          href="/"
+        >
+          <svg
+            width="48px"
+            height="48px"
+            viewBox="0 0 1024 1024"
+            data-aut-id="icon"
+            class=""
+            fill-rule="evenodd"
+          >
+            <path
+              class="rui-4K4Y7"
+              d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="dropdown">
+        <div class="drop-list">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <form action="">
+            <input type="text" placeholder="Search city, area or locality" />
+          </form>
+          <i class="fa-solid fa-chevron-down down-icon"></i>
+        </div>
+        <div class="search-bar">
+          <form action="">
+            <input
+              type="text"
+              placeholder="Find Cars,Mobile Phones and more..."
+            />
+          </form>
+        </div>
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="language">
+        <span>ENGLISH</span>
+        <span
+          ><i class="fa-solid fa-chevron-down down-icon lang-icon"></i
+        ></span>
+      </div>
+      <div class="login">
+        <a href="">Login</a>
+      </div>
+    </header>
+
+    <!--SECOND HEADER-->
+    <div class="header-2">
+      <div class="all-catagories">
+        <p>ALL CATEGORIES</p>
+        <i class="fa-solid fa-chevron-down down-icon"></i>
+      </div>
+      <ul>
+        <li>Cars</li>
+        <li>Motorcycles</li>
+        <li>Mobile Phones</li>
+        <li>For Sale: Houses & Apartments</li>
+        <li>Scooters</li>
+        <li>Commercial & Other vehicles</li>
+        <li>For Rent: Houses & Apartments</li>
+      </ul>
+    </div>
+
+    <!--BANNER SECTION-->
+
+    <div class="banner">
+      <div
+        class="banner-image"
+        style="
+          background-image: url('https://statics.olx.in/olxin/banners/hero_bg_in_v4@1x.png');
+        "
+      ></div>
+      <div class="banner-btn">Sell Car</div>
+    </div>
+
+    <!--cards-->
+    <div class="cards">
+      <div class="heading">Fresh recommendations</div>
+      <div class="contents">
+        <div class="card">
+          <div class="image">
+            <img src="./images/suzuki.webp" alt="product 1" />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="features">FEATURED</div>
+          <div class="container">
+            <h4 class="price">₹ 4,10,000</h4>
+            <div class="description">
+              <p>2018-44,000km</p>
+              <p class="desc">
+                Maruti Suzuki Celerio X ZXI(0) AMT, 2018, Petrol
+              </p>
+            </div>
+            <div class="section">
+              <p class="place">MALVIYA NAGAR,DELHI</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images/iphone-13-pro.webp"
+              alt="product 2"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="features">FEATURED</div>
+          <div class="container">
+            <h4 class="price">₹ 22,500</h4>
+            <div class="description">
+              <p class="desc">
+                Grab offer on refurbished mobiles on iPhones all models are
+                available
+              </p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">SAMUDRAPUR,MAHARASHTRA</p>
+              <p class="date">TODAY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              class="image"
+              src="./images/kkn.webp"
+              alt="product 3"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price">₹ 1,600</h4>
+            <div class="description">
+              <p class="desc">
+                Antique brass sundail compass wrist watch with leather strap
+              </p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">SAMUDRAPUR,MAHARASHTRA</p>
+              <p class="date">YESTERDAY</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images/telescope.webp"
+              alt="product 4"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price">₹ 2,800</h4>
+            <div class="description">
+              <p class="desc">
+                Title-Antique Brass Maritime Stand Telescope 1915
+              </p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">MALVIYA NAGAR,DELHI</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images//watch.webp"
+              alt="product 5"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price">₹ 1,999</h4>
+            <div class="description">
+              <p class="desc">
+                We have new collection of smart watches online order booking
+              </p>
+              <p class="space"></p>
+            </div>
+
+            <div class="section">
+              <p class="place">SAMUDRAPUR, MAHARASHTRA</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+
+        <!--sales card-->
+        <div class="card sales">
+          <div class="sales-text">
+            <h3 class="sale-div">Want to see your stuff here?</h3>
+            <div class="para-1">
+              Make some extra cash by selling things in your community. Go on,
+              it's auick and easy.
+            </div>
+          </div>
+          <div class="button1">Start selling</div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images/office.webp"
+              alt="product 6"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price">₹ 55,000</h4>
+            <div class="description">
+              <p class="desc">Office-cum Wearhouse available on ground</p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">INFOCITY, BHUBANESHWAR</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img src="./images/ps5.webp" alt="product 7" style="width: 100%" />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price"><b>₹ 59,390</b></h4>
+            <div class="description">
+              <p class="desc">
+                PS5 God of War Disc Editin Bundle-New Sealed Box With bill
+              </p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">MALVIYA NAGAR,DELHI</p>
+              <p class="date">3 DAYS AGO</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images//cycle.webp"
+              alt="product 7"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price"><b>₹ 6,500</b></h4>
+            <div class="description">
+              <p class="desc">B-TWIN my bike 7s</p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">JANIBEGUN, HYDERABAD</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images/toyota.webp"
+              alt="product 8"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price"><b>₹ 9,90,000</b></h4>
+            <p>2022-11,000km</p>
+            <p class="desc">Toyota Urban cruiser Premium, 2022, Petrol</p>
+            <div class="section">
+              <p class="place">MALVIYA NAGAR,DELHI</p>
+              <p class="date">MAR, 11</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+              src="./images/property.webp"
+              alt="product 9"
+              style="width: 100%"
+            />
+          </div>
+          <div class="favourites">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="container">
+            <h4 class="price">₹ 90,00,000</h4>
+            <div class="description">
+              <p class="desc">6.25 Cents of commercial Land in Kottayam</p>
+              <p class="space"></p>
+            </div>
+            <div class="section">
+              <p class="place">COLLECTORATE,KOTTAYAM</p>
+              <p class="date">MAR, 08</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--lOAD MORE BUTTON-->
+    <div class="load-more">
+      <button class="load">LOAD MORE</button>
+    </div>
+
+    <div class="footer-image">
+      <div class="ft-image">
+        <img src="./images/footar.jpg" alt="" />
+      </div>
+      <div class="footer-text">
+        <h2 class="text">TRY THE OLX APP</h2>
+        <p class="para">
+          Buy, sell and find just about anything using the app on your mobile.
+        </p>
+      </div>
+      <div class="line"></div>
+      <div class="buttons">
+        <h2 class="head">GET YOUR APP TODAY</h2>
+        <img
+          class="link"
+          src="https://statics.olx.in/external/base/img/appstore_2x.png"
+          alt="ios-app-store"
+          class="_1PWb7"
+        />
+        <img
+          class="link"
+          src="https://statics.olx.in/external/base/img/playstore_2x.png"
+          alt="android-app-store"
+          class="_1PWb7"
+        />
+      </div>
+    </div>
+
+    <!--FOOTER LISTS-->
+    <div class="footer-lists">
+      <div class="lists">
+        <ul class="footer-nav">
+          <h3>popular locations</h3>
+          <li>Kolkata</li>
+          <li>Mumbai</li>
+          <li>Chennai</li>
+          <li>Pune</li>
+        </ul>
+
+        <ul class="footer-nav">
+          <h3>trending locations</h3>
+          <li>Bhubaneshwar</li>
+          <li>Hyderabad</li>
+          <li>Chandigarh</li>
+          <li>Nashik</li>
+        </ul>
+
+        <ul class="footer-nav">
+          <h3>about us</h3>
+          <li>About OLX Group</li>
+          <li>Careers</li>
+          <li>Contact Us</li>
+          <li>OLX People</li>
+          <li>Waah Jobs</li>
+        </ul>
+
+        <ul class="footer-nav">
+          <h3>OLX</h3>
+          <li>Help</li>
+          <li>sitemap</li>
+          <li>Legal & Privacy information</li>
+          <li>Blog</li>
+          <li>OLX Autos Sell car</li>
+        </ul>
+        <div class="footer-nav">
+          <h3>follow us</h3>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-sharp fa-solid fa-play"></i>
+          </div>
+          <div class="appstore">
+            <img
+              class="link-1"
+              src="https://statics.olx.in/external/base/img/playstore_2x.png"
+              alt="android-app-store"
+              class="_1PWb7"
+            />
+            <img
+              class="link-1"
+              src="https://statics.olx.in/external/base/img/appstore_2x.png"
+              alt="ios-app-store"
+              class="_1PWb7"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--LAST FOOTER-->
+    <div class="last">
+      <div class="box">
+        <section>
+          <div class="first">Other countries</div>
+          <div>Indonesia - Pakistan - South africa</div>
+        </section>
+        <p>All rights reserved © 2006-2023 OLX</p>
+      </div>
+    </div>
+  </body>
+</html>
